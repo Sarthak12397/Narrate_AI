@@ -1,3 +1,49 @@
-I built this project as a full-stack prototype that turns narrative text into structured visual scenes. The idea was simple but ambitious: take a story, break it down into scenes, and represent them visually in a dynamic way. I vibe coded the whole thing—no strict plan, just experimenting and piecing together Node.js, Express, React, TypeScript, and Python to make it work.
+#Narrate AI – Interactive Storyboard Prototype
 
-One of the trickiest parts was generating images. My laptop couldn’t handle full image generation, so the pipeline would often fail—but eventually, I got it working enough to produce SVG graphics. It took a lot of trial and error, tweaking prompts and pipelines, but now every scene is represented as scalable vector images that are interactive and visually structured. This project isn’t perfect yet, but it’s a working prototype that shows how text can be transformed into visual storytelling.
+Convert your book or story into a cinematic storyboard.
+
+Narrate AI is a full-stack prototype that transforms narrative text into interactive visual scenes. Designed for writers and storytellers, it provides a “movie-like” experience for your story without heavy AI infrastructure.
+
+Features
+
+Upload text or PDF: Automatically splits content into individual scenes.
+
+Interactive scene preview: Navigate with play, next, previous, and regenerate controls.
+
+SVG-based visualization: Placeholder images simulate the animation of your story.
+
+Expandable architecture: Easily integrate AI-generated images or video in the future.
+
+Frontend: React + TypeScript with Vite
+
+Backend: FastAPI + Python, using MongoDB/local storage
+
+Demo
+
+Include GIFs or screenshots showing scene navigation with SVG placeholders.
+
+Installation (Local Prototype)
+# Clone the repo
+git clone (https://github.com/Sarthak12397/Narrate_AI/)
+cd narrate-ai
+
+# Backend
+pip install -r requirements.txt
+uvicorn main:app --reload
+
+# Frontend
+cd frontend
+npm install
+npm run dev
+
+Usage
+
+Upload your text or PDF.
+
+View scenes with placeholder visuals.
+
+Navigate through your story with the cinematic controls.
+
+Vision
+
+This prototype demonstrates the potential of AI-powered storytelling. Future iterations will replace SVG placeholders with AI-generated images or video, creating a fully immersive animated experience from text.
