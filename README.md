@@ -20,6 +20,7 @@ Backend: FastAPI + Python, using MongoDB/local storage
 
 Demo
 
+
 Include GIFs or screenshots showing scene navigation with SVG placeholders.
 
 Installation (Local Prototype)
@@ -43,6 +44,10 @@ Upload your text or PDF.
 View scenes with placeholder visuals.
 
 Navigate through your story with the cinematic controls.
+
+
+Frontend: Functional but minimal — displays scenes and navigation controls clearly, using SVG placeholders.
+Backend: Robust and well-structured — handles text/PDF parsing, scene generation, and is fully ready for AI-generated images or videos in future updates.
 
 Vision
 
